@@ -117,9 +117,12 @@ footer {
 }
 
 main {
-  background-color: #ccc;
+  background-color: #FAF0E6;
   height: 250px;
   width: 100%;
+  background: url(../img/beach-waves.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
 }
 
 header,
@@ -130,6 +133,14 @@ main {
   align-items: center;
 }
 
+main p span, header {
+  font-family: 'Kaushan Script', cursive;
+}
+
+header{
+  font-size: 1.5em;
+}
+
 #div-1,
 #div-2,
 #div-3 {
@@ -138,8 +149,14 @@ main {
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.25em;
+  font-size: 1em;
+  font-family: 'Cantarell', sans-serif;
   height: 200px;
+  width: 25%;
+  text-align: center;
+  border-right: solid;
+  border-color: white;
+  padding: 25px;
 }
 
 .wrapper span {
@@ -152,6 +169,7 @@ main {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  background: #4682B4;
 }
 
 .flex-items {
@@ -160,10 +178,31 @@ main {
   justify-content: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: #4682B4;
   width: 30%;
   height: 200px;
+}
+
+#main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: #429DC4;
+    background:rgba(70,130,180,0.8);
+    color: #fff;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    border-radius: 10px;
+    padding: 0px 30px;
+    width: 300px;
+    height: 300px;
+}
+
+#content p span {
+    font-family: 'Kaushan Script', cursive;
 }
 
 /* ==========================================================================
